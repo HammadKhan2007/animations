@@ -1,0 +1,46 @@
+.para{
+    font-size: large;
+    font-weight: 700;
+    animation: ColorChangings 2s  0s infinite;
+}
+@keyframes ColorChangings {
+    from{
+        color: black;
+    }
+    to{
+        color: aqua;
+    }
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+animation: Rotating 2s  0s infinite ease-in-out;
+}
+@keyframes Rotating {
+    from{
+        rotate: odeg;
+
+    } to{
+        rotate: 360deg;
+    }
+}
+@keyframes ColorRotating {
+    0% {
+        background-color: black;
+        rotate: 0deg;
+    }
+    25% {
+        background-color: brown;
+        rotate: 90deg;
+    }50%{
+        background-color: aqua;
+        rotate: 180deg;
+    } 75%{
+        background-color: blue;
+        rotate: 270deg;
+    } 100%{
+        background-color: cadetblue;
+        rotate: 360deg;
+    }
+}
